@@ -1,3 +1,4 @@
+"""this script is used to create the database and add test records"""
 import sqlite3
 
 # 1. Configuration - This MUST match what your app uses

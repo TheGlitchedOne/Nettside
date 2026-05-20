@@ -8,7 +8,8 @@
 	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Icon.png') }}">
     <title>inloget</title><!--nettside navn-->
 </head>
-<body> <!--this is a form that lets the user data it just a bache of difrent data filds looks wers then it is--> 
+<body> <!--this is a form that lets the user data it just a bache of difrent data filds 
+            add a fild her is you whant do have more data and make changest to app.py line 95 and 35--> 
     <h1>{{msg}}</h1>
     <form action="{{url_for('submit_ticket')}}" method="POST" enctype="multipart/form-data">
         <label for="email">email</label>
