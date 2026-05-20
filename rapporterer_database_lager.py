@@ -7,34 +7,34 @@ DB_FILE = "database.db"
 def create_users():
     conn = sqlite3.connect(DB_FILE)
     # Ensure table exists with 'pasword' (matching your app.py)
-    conn.execute("CREATE TABLE IF NOT EXISTS problem (problem_type TEXT, proiority INTEGER, subject TEXT, extra_info TEXT, attachment_data BLOB, attachment_filename TEXT, attachment_type TEXT)")
+    conn.execute("CREATE TABLE IF NOT EXISTS problem (email TINYTEXT, extra_info TEXT)")
     
     records_to_add = int(input("How many random records do you want to add? "))
     
     # Hashing logic with the Secret Key (Pepper)
 
-    # Add the Test User
-    conn.execute("INSERT INTO problem (problem_type, proiority, subject, extra_info, attachment_data, attachment_filename, attachment_type) VALUES (?, ?, ?, ?, ?, ?, ?)", 
-                 ("hardware", 1, "Test problem", "laptop", None, None, None))
+    # Add the Test record (use last_email/last_extra_info for sample output)
+    last_email = "test@example.com"
+    last_extra_info = "Test problem"
+    conn.execute("INSERT INTO problem (email, extra_info) VALUES (?, ?)", 
+                 (last_email, last_extra_info))
 
-    # Add Random Users
+    # Add Random Records
     for _ in range(records_to_add):
-        problem_type = 'other'
-        proiority = 1
-        subject = 'test problem'
-        extra_info = 'desktop'
-        attachment_data = None
-        attachment_filename = None
-        attachment_type = None
+        email = f"user{_}@example.com"
+        extra_info = f"Extra info for user {_}"
         
-        conn.execute("INSERT INTO problem (problem_type, proiority, subject, extra_info, attachment_data, attachment_filename, attachment_type) VALUES (?, ?, ?, ?, ?, ?, ?)", 
-                     (problem_type, proiority, subject, extra_info, attachment_data, attachment_filename, attachment_type))
+        conn.execute("INSERT INTO problem (email, extra_info) VALUES (?, ?)", 
+                     (email, extra_info))
+        # remember last values for sample output
+        last_email = email
+        last_extra_info = extra_info
     conn.commit()
     conn.close()
     
     print("-" * 30)
     print("DATABASE UPDATED SUCCESSFULLY")
-    print(f"Try submitting a ticket with -> Subject: {subject} | Extra Info: {extra_info}")
+    print(f"Try submitting a ticket with -> Email: {last_email} | Extra Info: {last_extra_info}")
     print("-" * 30)
 
 if __name__ == "__main__":

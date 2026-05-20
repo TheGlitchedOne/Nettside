@@ -87,17 +87,12 @@ def submit_ticket():
     if request.method == 'POST':
         msg = ""
         try:
-            PROBLEM_TYPE = request.form.get('problem_type')
-            PRIORITY = request.form.get('priority')
-            SUBJECT = request.form.get('subject')
+            EMAIL = request.form.get('email')
             EXTRA_INFO = request.form.get('extra_info')
-            ATTACHMENT = request.files.get('attachment')
-            ATTACHMENT_FILENAME = ATTACHMENT.filename
-            ATTACHMENT_TYPE = ATTACHMENT.content_type
 
             with sql.connect("database.db") as con:
                 cur = con.cursor()
-                cur.execute("INSERT INTO problem (problem_type, proiority, subject, extra_info, attachment_data, attachment_filename, attachment_type) VALUES (?,?,?,?,?,?,?)", (PROBLEM_TYPE, PRIORITY, SUBJECT, EXTRA_INFO, ATTACHMENT.read(), ATTACHMENT_FILENAME, ATTACHMENT_TYPE))
+                cur.execute("INSERT INTO problem (email, extra_info) VALUES (?, ?)", (EMAIL, EXTRA_INFO))
                 con.commit()
                 msg = "Record successfully added"
         except Exception as e:
