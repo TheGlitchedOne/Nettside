@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IT Innlandet</title>
+	<!-- icon -->
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Icon.png') }}">
+	<!-- css -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body>
+    <!--log in-->
+{% if alert_msg %}
+  <p style="color:red;">{{ alert_msg }}</p>
+{% endif %}
+    <form action="{{url_for('login')}}" method="POST" id="loginForm" >
+        <h1>Login</h1>
+        Username:<input type="text" name="username" required><br><br>
+        Password:<input type="password" name="pasword" required><br><br>
+        <input type="submit" value="Login">
+    </form><br>
+
+
+<!-- JavaScript --> 
+
+</body>
+</html>
+
+
+<!--
+	editor.linkedEditing
+
+	<br>
+
+	<p>text</p>
+	<h1>text</h1>
+
+font size				<h1 style="font-size:5000%;"> tekst</h1> </h1> 
+font size small			<h1 style="font-size:10%;"> tekst</h1>
+font size small			<h1 style="font-size:1%;"> tekst</p>
+farge bak text 			<h1 style="background-color:#FFF300;">tekst2</h1>
+farke runt text			<h1 style="border:2px solid #000000;">tekst</h1>
+tekst farge 			<h1 style="color:#008FFF;">tekst6</h1>
+text plasering left		<p style="text-align:left;">left.</p>
+text plasering middle	<p style="text-align:center;">Centered paragraph.</p>
+text plasering right	<p style="text-align:right;">right.</p>			
+
+
+ bilde
+	<img src="image/test.png" alt="text vis bilde feiler"  width="500" height="333">
+
+linker
+	<a href="https://www.w3schools.com/">link</a> 
+
+
+
+
+.JAVASCRIPT
+viser variabel fra .js		<p id="input"></p>
+
+form
+<form >
+	<label for="quantity">Quantity :</label>
+	<input type="number" id="quantity" name="quantity" >
+	<input type="submit" value="Submit">
+</form>
+
+<input type=
+		"text"				Displays a single-line text input field
+		"radio"				Displays a radio button (for selecting one of many choices)
+		"checkbox"			Displays a checkbox (for selecting zero or more of many choices)
+		"submit"			Displays a submit button (for submitting the form)
+		"button"			Displays a clickable button
+
+
+button
+<button onclick="start_Infinip()">Start Infinite Loop</button>
+
+
+
+
+
+
+.CSS
+<div class="test1">
+
+flex box
+
+<div class="a-flex-container">
+  <div class="item a-auto">auto</div>
+  <div class="item a-auto">auto</div>
+  <div class="item a-auto">auto</div>
+</div>
+
+	-->

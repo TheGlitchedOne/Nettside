@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"><!--nettside navn-->
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Icon.png') }}">
+    <title>list</title><!--linker css-->
+</head>
+<!--this file is not in use-->
+<body>
+    <table border="1">
+        <thead>
+            <td>username</td>
+            <td>pasword</td>
+        </thead>
+
+        {% for row in rows %}
+
+        <tr>
+            <td>{{row['username']}}</td>
+            <td>{{row['pasword']}}</td>
+
+        </tr>
+
+        {% endfor %}
+
+
+
+    </table>
+    <a href="/">Go to homepage</a>
+</body>
+</html>

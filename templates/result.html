@@ -1,0 +1,78 @@
+<!DOCTYPE html><!--nettside navn-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"><!--linker css-->
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Icon.png') }}">
+    <title>inloget</title><!--nettside navn-->
+</head>
+<body>
+    <h1>{{msg}}</h1>
+    <form action="{{url_for('submit_ticket')}}" method="POST" enctype="multipart/form-data">
+        <label for="email">valg fri</label>
+        <input type="email" id="email" name="email" placeholder="Email"><br>
+
+        <label for="problem_type">Problem Type:</label>
+        <select name="problem_type" id="problem_type" onchange="showOptions()" required>
+            <option value="other">other</option>
+            <option value="hardware" >hardware</option>
+            <option value="software">software</option>
+            <option value="network">network</option>
+        </select><br>
+    <div id="hardware_valg" style="display:none; margin-top:10px;">
+      <label>vilken data/hardware</label>
+      <select name="extra_info" id ="extra_info">
+        <option value="laptop">laptop</option>
+        <option value="desktop">desktop</option>
+        <option value="printer">printer</option>
+        <option value="monitor">monitor</option>
+        <option value="smartbord">smartbord</option>
+        <option value="tablet">tablet</option>
+        <option value="phone">telefon</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+    <div id="software_valg" style="display:none; margin-top:10px;">
+      <label>vilken programvare /software</label>
+      <select name="extra_info" id ="extra_info">
+        <option value="Windows 11">Windows 11</option>
+        <option value="MacOS">MacOS</option>
+        <option value="Linux">Linux</option>
+        <option value="Office365">Office 365</option>
+        <option value="Adobe">Adobe</option>
+        <option value="antivirus">antivirus</option>
+        <option value="inloggin">innloggin</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+    <div id="network_valg" style="display:none; margin-top:10px;">
+      <label>vilken netverk /network</label>
+      <select name="extra_info" id ="extra_info">
+        <option value="wifi">wifi</option>
+        <option value="ethernet">ethernet</option>
+        <option value="bluetooth">bluetooth</option>
+        <option value="branmur">bramur</option>
+        <option value="vpn">vpn</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+
+        <label for="proiority">Priority: 1-5</label><br>
+        <input type="range" name="priority" id="priority" min="1" max="5" required><br>
+
+        <label for="subject">beskrive problemet du har: og vilekt byg og rom det er i</label><br>
+        <textarea  type="text" name="subject" id="subject" class="tekst_box" placeholder=". . . ." required></textarea><br>
+
+        <label for="attachment">feil log eller bilde</label><br>
+        <input type="file" name="attachment" id="attachment"><br>
+
+        <input type="submit" value="send in">
+
+    </form>
+        <form action="{{url_for('submit_ticket')}}" method="POST" enctype="multipart/form-data"></form>
+    <a href="/">Go home</a>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body><!--    <a href="/enternew">create new user</a>--><!--link to create new user-->
+</html>

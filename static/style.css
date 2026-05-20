@@ -1,0 +1,147 @@
+body {
+      background: linear-gradient(to bottom, #44daeb, #374980, #000040); /* Gradient from light cyan to royal blue to dark blue */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+h3 {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+}
+h4 {
+    font-size: 130%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+p {
+    
+    color: black;
+}
+Form {
+    text-align: center;
+}
+
+a {
+    display: block; /* må has for og sentere linker */
+    width: 100%;    /* bedre sentering */
+    text-align: center;
+    color: black;
+    /*text-decoration: none;*//* fjern understreking */
+}
+* {
+    box-sizing: border-box;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    overflow-x: auto;
+}
+td {
+    font-size: 150%;
+}
+
+.tekst_box {
+  width: 90%;
+  max-width: 600px;   /* stops it becoming too wide on desktop */
+  height: 150px;
+  margin-top: 6px;
+}
+p {
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .tekst_box {
+        width: 95%;
+    }
+
+    td {
+        font-size: 100%;
+    }
+}
+/* 
+	body
+	background-image: url('image/background F3 .png');	
+	background-color:#00FFF7;
+ 
+    background: linear-gradient(to bottom, #00e5ff, #00279c, #000040); /* Gradient from dodger blue to royal blue to dark blue 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+p
+	3 background-color:#FFF300;
+	border:2px solid #000000;
+	font-size: 200%;
+	border:2px solid #000000;
+	color:#FF0000;
+	text-shadow: 1px 1px;
+	font-family: Papyrus
+	
+	
+	
+.test1
+ width: 1000px;
+  height: 75px;
+  background-color: #00217b;
+  animation-name: example;
+
+
+.test2
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+	
+
+flex box
+
+.a-flex-container {
+  background-color: #f4f7f8;
+  resize: horizontal;
+  overflow: hidden;
+  display: flex;
+  margin: 1em;
+}
+
+.item {
+  margin: 1em;
+  padding: 0.5em;
+  width: 110px;
+  min-width: 0;
+  background-color: #1b5385;
+  color: white;
+  font-family: monospace;
+  font-size: 13px;
+  
+  /*maks the itmes centerd*//*
+  margin-left: auto;
+  margin-right: auto;
+}'
+
+.a-auto {
+  flex: auto;
+}
+
+
+@font-face {
+  font-family: "pixelFont";
+  src: url("image/font.ttf") format("truetype");
+}
+*/

@@ -1,0 +1,2 @@
+python rapporterer_database_lager.py
+pause

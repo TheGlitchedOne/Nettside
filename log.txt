@@ -1,0 +1,205 @@
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+[93mstarting app
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+[0m[96mAttempting login for username: TestUser[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+[93mstarting app
+[0m[96mAttempting login for username: 123[0m
+Error: can only concatenate str (not "NoneType") to str
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[0m[96mAttempting login for username: wewqeqw[0m
+[93mstarting app
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: henrik[0m
+[93mstarting app
+[0m[96mAttempting login for username: wewqeqw[0m
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mLogin attempt for username: TestUser resulted in: Error in login operation[0m
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mLogin attempt for username: TestUser resulted in: Error in login operation[0m
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mLogin attempt for username: TestUser resulted in: Error in login operation[0m
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mLogin attempt for username: TestUser resulted in: Error in login operation[0m
+[93mstarting app
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[0m[96mAttempting login for username: TestUser[0m
+Error: can only concatenate str (not "NoneType") to str
+[93mstarting app
+can only concatenate str (not "NoneType") to str
+can only concatenate str (not "NoneType") to str
+can only concatenate str (not "NoneType") to str
+[93mstarting app
+can only concatenate str (not "NoneType") to str
+can only concatenate str (not "NoneType") to str
+[93mstarting app
+[93mstarting app
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
+[93mstarting app
